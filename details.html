@@ -1,1 +1,18 @@
-Detail2
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="google-play-app" content="app-id=com.example.deeplinktest">
+    <title>Open App or Redirect</title>
+    <script type="text/javascript">
+        // 1초 뒤에 Play 스토어로 리디렉션
+        setTimeout(function() {
+            window.location = "https://play.google.com/store/apps";
+        }, 1000);
+      
+    </script>
+</head>
+<body>
+    <p>If the app is not installed, you will be redirected to Play Store.</p>
+</body>
+</html>
