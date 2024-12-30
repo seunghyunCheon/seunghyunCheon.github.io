@@ -1,8 +1,8 @@
 [{
   "relation": ["delegate_permission/common.handle_all_urls"],
   "target": {
-    "namespace": "com.example.fcmflutter",
-    "package_name": "com.example.fcmflutter",
+    "namespace": "com.example.deeplinktest",
+    "package_name": "com.example.deeplinktest",
     "sha256_cert_fingerprints":
     ["31:0B:4D:1D:E0:F0:1A:B2:9C:59:DB:56:71:CD:D8:94:4A:9C:14:2A:DE:80:7A:CE:78:2C:A3:57:5D:E6:76:55"]
   }
